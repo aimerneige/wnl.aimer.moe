@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="万年历：公历农历对照，节气、节日、干支、生肖、每日宜忌与时辰吉凶。" />
+    <meta name="theme-color" content="#b8312f" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>万年历 · 农历查询</title>
+    <script>
+      // Apply the saved theme before first paint to avoid a flash.
+      try {
+        const t = localStorage.getItem('wnl-theme');
+        if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t;
+      } catch {}
+    </script>
+    <script type="module" crossorigin src="./assets/index-DN4k370k.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DzGVT-Mn.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
